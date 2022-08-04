@@ -67,7 +67,7 @@ class SettingsSpecialmode(LyricBase):
 class SettingsFan(LyricBase):
     @property
     def fan(self):
-        return self.atributes.get("fan", {})
+        return self.attributes.get("fan", {})
         
 
 class Settings(LyricBase):
